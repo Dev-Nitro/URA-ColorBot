@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:URA_ColorBot.Graphics.GUI"
         mc:Ignorable="d"
-        Title="MainInterface" Background="#FF1E1E1E" Height="450" Width="800">
+        Title="MainInterface" Background="#FF1E1E1E" Height="450" Width="800" Closing="Window_Closing">
     <Grid>
-        
+        <Image x:Name="ColorImage"/>
     </Grid>
 </Window>

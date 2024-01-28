@@ -14,4 +14,8 @@
     <Folder Include="Graphics\ESP\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\URA-ColorBot-API\URA-ColorBot-API.csproj" />
+  </ItemGroup>
+
 </Project>
