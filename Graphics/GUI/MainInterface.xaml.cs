@@ -58,7 +58,7 @@ public partial class MainInterface : Window
         var value = true;
 
         Interop.DwmSetWindowAttribute(
-            new System.Windows.Interop.WindowInteropHelper(this).Handle, 
+            new WindowInteropHelper(this).Handle, 
             20, ref value, Marshal.SizeOf(value)
             );
     }
